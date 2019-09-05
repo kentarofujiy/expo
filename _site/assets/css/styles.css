@@ -1,0 +1,27 @@
+.spacetor-sm { height: .5em; }
+
+.spacetor-md { height: 1em; }
+
+.spacetor-lg { height: 1.5em; }
+
+.spacetor-xl { height: 3.5em; }
+
+.current-link { color: green; }
+
+.img-fluid-hero { height: auto; max-width: 100%; min-width: 100%; }
+
+.videos-section-title { font-size: calc(24px + 7vw); font-weight: bold; color: #fff; }
+
+.filme-titulo { color: #fcb912; }
+
+.minestar-title { font-weight: bold; font-size: calc(24px + 4vw); }
+
+.img-fluid.minestar-icons { width: 80vw; }
+
+.footer-icon-wrap { display: flex; justify-content: space-between; max-width: 35vw; }
+
+.footer-icon { display: flex; width: 5vw; max-width: 10vw; align-self: center; }
+
+.footer-icon-wrap > a { display: flex; }
+
+/*# sourceMappingURL=styles.css.map */

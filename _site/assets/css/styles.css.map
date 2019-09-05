@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".spacetor-sm {\n    height: .5em;\n}\n.spacetor-md {\n    height: 1em;\n}\n .spacetor-lg {\n    height: 1.5em;\n }\n .spacetor-xl {\n    height: 3.5em;\n }\n.current-link {\n  color: green;\n}\n.img-fluid-hero {\n    height: auto;\n    max-width: 100%;\n    min-width: 100%;\n}\n\n.videos-section-title {\n  font-size: calc(24px + 7vw);\n  font-weight: bold;\n  color: #fff;\n}\n\n.filme-titulo {\n  color: #fcb912;\n}\n\n\n.minestar-title {\n  font-weight: bold;\n  font-size: calc(24px + 4vw);\n}\n\n.img-fluid.minestar-icons {\n  width: 80vw;\n}\n.footer-icon-wrap {\n    display: flex;\n    justify-content: space-between;\n    max-width: 35vw;\n}\n\n.footer-icon {\n  display: flex;\n  width: 5vw;\n  max-width: 10vw;\n  align-self: center;\n}\n.footer-icon-wrap>a {\n  display: flex;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,YAAY,CAAC,EACT,MAAM,EAAE,IAAI,GACf;;AACD,AAAA,YAAY,CAAC,EACT,MAAM,EAAE,GAAG,GACd;;AACA,AAAA,YAAY,CAAC,EACV,MAAM,EAAE,KAAK,GACf;;AACD,AAAA,YAAY,CAAC,EACV,MAAM,EAAE,KAAK,GACf;;AACF,AAAA,aAAa,CAAC,EACZ,KAAK,EAAE,KAAK,GACb;;AACD,AAAA,eAAe,CAAC,EACZ,MAAM,EAAE,IAAI,EACZ,SAAS,EAAE,IAAI,EACf,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,qBAAqB,CAAC,EACpB,SAAS,EAAE,gBAAgB,EAC3B,WAAW,EAAE,IAAI,EACjB,KAAK,EAAE,IAAI,GACZ;;AAED,AAAA,aAAa,CAAC,EACZ,KAAK,EAAE,OAAO,GACf;;AAGD,AAAA,eAAe,CAAC,EACd,WAAW,EAAE,IAAI,EACjB,SAAS,EAAE,gBAAgB,GAC5B;;AAED,AAAA,UAAU,AAAA,eAAe,CAAC,EACxB,KAAK,EAAE,IAAI,GACZ;;AACD,AAAA,iBAAiB,CAAC,EACd,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,aAAa,EAC9B,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,YAAY,CAAC,EACX,OAAO,EAAE,IAAI,EACb,KAAK,EAAE,GAAG,EACV,SAAS,EAAE,IAAI,EACf,UAAU,EAAE,MAAM,GACnB;;AACD,AAAA,iBAAiB,GAAC,CAAC,CAAC,EAClB,OAAO,EAAE,IAAI,GACd"
+}

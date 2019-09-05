@@ -1,0 +1,16 @@
+<div class="videos-wrapper" style="background-image:url({{site_url}}/assets/images/bg-video.png);">
+  <div class="spacetor-xl">&nbsp;</div>
+  <div class="container">
+    <h1 class="videos-section-title">FILMES</h1>
+<div class="spacetor-lg">&nbsp;</div>
+  {% for post in site.posts %}
+
+      <h2 class="filme-titulo">{{ post.title }}</h2>
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="{{ post.youtube }}" allowfullscreen></iframe>
+</div>
+<div class="spacetor-lg">&nbsp;</div>
+  {% endfor %}
+<div class="spacetor-xl">&nbsp;</div>
+</div>
+</div> 
