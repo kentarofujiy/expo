@@ -1,1 +1,1 @@
-Sitemap: https://kentarofujiy.github.io/expo//sitemap.xml
+Sitemap: /sitemap.xml
