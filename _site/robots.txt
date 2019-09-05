@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://sotreq.com.br/mineracao/videos/sitemap.xml
