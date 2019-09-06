@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Add Material CSS, replace Bootstrap CSS -->
-    <link href="{{ site.url }}/assets/css/material.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+    <link href="{{ site.url }}/{% if jekyll.environment == "production" %}expo/{% endif %}assets/css/material.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/{% if jekyll.environment == "production" %}expo/{% endif %}assets/css/styles.css">
   </head>
   <body>
    {{ content }}
@@ -25,6 +25,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
     <!-- Then Material JavaScript on top of Bootstrap JavaScript -->
-    <script src="{{ site.url }}/assets/js/material.min.js"></script>
+    <script src="{{ site.url }}/{% if jekyll.environment == "production" %}expo/{% endif %}assets/js/material.min.js"></script>
   </body>
 </html>
